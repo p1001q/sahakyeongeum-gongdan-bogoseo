@@ -1,4 +1,8 @@
 .DS_Store
+.idea/
+*.iml
+*.iws
+*.ipr
 __pycache__/
 *.py[cod]
 tmp/
