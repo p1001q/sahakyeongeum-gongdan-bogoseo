@@ -2,7 +2,7 @@
   "점검일": "2026-08-31",
   "판정": "정상",
   "필수파일_누락": [],
-  "Markdown_개수": 33,
+  "Markdown_개수": 35,
   "Markdown_UTF8오류": [],
   "활성MD_로컬링크오류": [],
   "활성MD_코드경로오류": [],
@@ -42,8 +42,48 @@
       "열수": 4,
       "인코딩": "utf-8-sig"
     },
+    "data/processed/2025_퇴직연금수급자_공개값비교.csv": {
+      "행수": 4,
+      "열수": 4,
+      "인코딩": "utf-8-sig"
+    },
+    "data/processed/VOC_업무구분별_정제.csv": {
+      "행수": 7,
+      "열수": 19,
+      "인코딩": "utf-8-sig"
+    },
+    "data/processed/VOC상위민원_전체VOC_비교.csv": {
+      "행수": 7,
+      "열수": 4,
+      "인코딩": "utf-8-sig"
+    },
+    "data/processed/고객상담_채널별_정제.csv": {
+      "행수": 9,
+      "열수": 12,
+      "인코딩": "utf-8-sig"
+    },
+    "data/processed/고객상담_채널합계차이_2023_2025.csv": {
+      "행수": 3,
+      "열수": 5,
+      "인코딩": "utf-8-sig"
+    },
+    "data/processed/공공데이터_품질진단_사례표.csv": {
+      "행수": 8,
+      "열수": 7,
+      "인코딩": "utf-8-sig"
+    },
+    "data/processed/대표홈페이지게시물활용_게시판별_요약.csv": {
+      "행수": 30,
+      "열수": 8,
+      "인코딩": "utf-8-sig"
+    },
     "data/processed/데이터사전.csv": {
       "행수": 8,
+      "열수": 5,
+      "인코딩": "utf-8-sig"
+    },
+    "data/processed/디지털고객서비스_분석공백_필드매핑.csv": {
+      "행수": 7,
       "열수": 5,
       "인코딩": "utf-8-sig"
     },
@@ -57,9 +97,19 @@
       "열수": 14,
       "인코딩": "utf-8-sig"
     },
+    "data/processed/인터넷접수_연도유형별_정제.csv": {
+      "행수": 80,
+      "열수": 4,
+      "인코딩": "utf-8-sig"
+    },
     "data/processed/핵심지표_공통기간_1997_2025.csv": {
       "행수": 29,
       "열수": 8,
+      "인코딩": "utf-8-sig"
+    },
+    "data/processed/홈페이지가입자_연도별_정제.csv": {
+      "행수": 7,
+      "열수": 6,
       "인코딩": "utf-8-sig"
     },
     "data/raw/catalog_audit/15012436.csv": {
@@ -166,10 +216,12 @@
     "data/processed/quality_checks.json": "정상",
     "data/raw/metadata_연도별_교직원_퇴직현황_15065054.json": "정상",
     "data/raw/metadata_연도별_연금수급자_및_연금액_15045820.json": "정상",
+    "output/evidence/Ⅳ_현행_디지털고객서비스_수치검증_20260831.json": "정상",
+    "output/evidence/Ⅴ_분석공백_품질진단_검증_20260831.json": "정상",
     "output/evidence/추가그래프_검증값_20260831.json": "정상",
     "output/evidence/팀원_그래프_재검산_20260831.json": "정상"
   },
-  "PNG_개수": 13,
+  "PNG_개수": 19,
   "PNG_오류": [],
   "Python_구문오류": [],
   "PDF_오류": [],

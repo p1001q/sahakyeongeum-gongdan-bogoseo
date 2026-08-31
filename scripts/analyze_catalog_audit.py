@@ -129,8 +129,10 @@ def main() -> None:
     age_younger = read(15119221)
     for frame in (age_older, age_younger):
         frame["역산_추정인원"] = frame["금액"] / frame["건수"]
-    inferred_older = round(float(age_older["역산_추정인원"].sum()))
-    inferred_younger = round(float(age_younger["역산_추정인원"].sum()))
+    # 부동소수점 나눗셈 결과는 정수에 매우 가깝지만 정확한 정수는 아니다.
+    # 문서의 재현 규칙과 맞춰 지역별로 반올림한 뒤 합산한다.
+    inferred_older = int(age_older["역산_추정인원"].round().sum())
+    inferred_younger = int(age_younger["역산_추정인원"].round().sum())
 
     manifest = []
     for path in sorted(RAW.glob("*.csv")):
@@ -190,7 +192,8 @@ def main() -> None:
                     ["퇴직연금", "유족연금", "장해연금", "연계연금"],
                 ].sum(axis=1).iloc[0]
             ),
-            "해석": "지역파일의 '건수'는 인원이 아니라 평균연금액으로 판단된다. 금액÷건수가 지역별 정수 인원이고 전체 수급자 합계와 일치한다.",
+            "역산규칙": "지역별 금액÷건수 계산 후 반올림하고 합산",
+            "해석": "지역파일의 '건수'는 인원이 아니라 평균연금액일 가능성이 강하다. 금액÷건수의 지역별 반올림 합이 전체 수급자 합계와 일치하지만 공식 컬럼 정의 확인 전 확정하지 않는다.",
         },
     }
     (OUT / "핵심후보_데이터품질검사_20260831.json").write_text(
