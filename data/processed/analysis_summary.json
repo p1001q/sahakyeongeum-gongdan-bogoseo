@@ -1,0 +1,39 @@
+{
+  "retirement": {
+    "start_year": 1977,
+    "end_year": 2025,
+    "start_total": 3777,
+    "end_total": 27495,
+    "end_teachers": 14789,
+    "end_staff": 12706,
+    "peak_year": 2024,
+    "peak_total": 37305,
+    "latest_yoy_change": -9810,
+    "latest_yoy_rate_pct": -26.3
+  },
+  "pension": {
+    "start_year": 1997,
+    "end_year": 2025,
+    "start_recipients": 4997,
+    "end_recipients": 111389,
+    "multiple": 22.29,
+    "absolute_increase": 106392,
+    "cagr_pct": 11.72,
+    "latest_net_increase": 5623,
+    "latest_growth_pct": 5.32,
+    "peak_net_increase_year": 2022,
+    "peak_net_increase": 6813
+  },
+  "average_pension": {
+    "start_won": 1365170,
+    "end_won": 3318230,
+    "nominal_change_pct": 143.06,
+    "latest_yoy_change_won": 60720,
+    "latest_yoy_rate_pct": 1.86
+  },
+  "common_period": {
+    "start_year": 1997,
+    "end_year": 2025,
+    "years": 29
+  }
+}

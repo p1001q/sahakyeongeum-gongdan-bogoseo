@@ -1,0 +1,60 @@
+{
+  "raw_files": {
+    "data/raw/사립학교교직원연금공단_연도별_교직원_퇴직현황_20251231.csv": {
+      "sha256": "90374bb9a18e170212bb7fe77c1fbeff066e411c684d695e864473495df32b17",
+      "rows": 49,
+      "columns": 33
+    },
+    "data/raw/사립학교교직원연금공단_연도별_연금수급자_및_연금액_20251231.csv": {
+      "sha256": "6e053c1772d49b886a992ced9f6aaf447100b3b5e1eee46fcb8f24c8611ec494",
+      "rows": 29,
+      "columns": 11
+    }
+  },
+  "periods": {
+    "retirement": [
+      1977,
+      2025
+    ],
+    "pension": [
+      1997,
+      2025
+    ],
+    "common": [
+      1997,
+      2025
+    ]
+  },
+  "duplicates": {
+    "retirement_year": 0,
+    "pension_year": 0
+  },
+  "missing_cells": {
+    "retirement": 0,
+    "pension": 0
+  },
+  "retirement_detail_sum_matches_top_total_years": 34,
+  "retirement_detail_sum_mismatch_years": [
+    1978,
+    1979,
+    1980,
+    1981,
+    1982,
+    1983,
+    1984,
+    1985,
+    1986,
+    1987,
+    1988,
+    1989,
+    1990,
+    1991,
+    1992
+  ],
+  "interpretation_notes": [
+    "퇴직자는 해당 연도의 발생량(flow), 퇴직연금수급자는 연도별 수급 중인 인원(stock)으로 서로 다른 지표다.",
+    "수급자 순증은 전년 수급자 수와의 차이이며 신규 수급개시자 수가 아니다.",
+    "평균연금액은 물가조정하지 않은 명목금액이다.",
+    "퇴직현황 세부열의 초기 0은 실제 0과 미집계를 구분하기 어려워 학교급별 장기분석에서 제외한다."
+  ]
+}

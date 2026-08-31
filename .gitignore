@@ -1,0 +1,10 @@
+.DS_Store
+__pycache__/
+*.py[cod]
+tmp/
+output/qa/
+
+# 개인정보 포함 — 로컬에만 보관, 퍼블릭 레포에 올리지 않음
+archive/forms_application_20260827/
+archive/legacy_scripts/
+
