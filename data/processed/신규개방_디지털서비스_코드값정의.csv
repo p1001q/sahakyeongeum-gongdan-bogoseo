@@ -1,0 +1,30 @@
+﻿필드명,코드순서,코드값,표시명,정의_주의
+user_group,1,EMP,재직자,현행 공단 고객구분과 매핑 후 확정
+user_group,2,PEN,수급자,현행 공단 고객구분과 매핑 후 확정
+user_group,3,OTH,기타·미분류,현행 공단 고객구분과 매핑 후 확정
+age_band,1,U40,40세 미만,정확한 나이·생년월일을 공개하지 않으며 희소셀은 인접 범주와 통합
+age_band,2,A40,40대,정확한 나이·생년월일을 공개하지 않으며 희소셀은 인접 범주와 통합
+age_band,3,A50,50대,정확한 나이·생년월일을 공개하지 않으며 희소셀은 인접 범주와 통합
+age_band,4,A60,60대,정확한 나이·생년월일을 공개하지 않으며 희소셀은 인접 범주와 통합
+age_band,5,A70,70대,정확한 나이·생년월일을 공개하지 않으며 희소셀은 인접 범주와 통합
+age_band,6,A80P,80세 이상,정확한 나이·생년월일을 공개하지 않으며 희소셀은 인접 범주와 통합
+age_band,7,UNK,미상,정확한 나이·생년월일을 공개하지 않으며 희소셀은 인접 범주와 통합
+access_channel,1,PCW,PC웹,담당자 PC/모바일 항목을 포함하고 앱을 분리
+access_channel,2,MOW,모바일웹,담당자 PC/모바일 항목을 포함하고 앱을 분리
+access_channel,3,APP,앱,담당자 PC/모바일 항목을 포함하고 앱을 분리
+access_channel,4,OTH,기타·미상,담당자 PC/모바일 항목을 포함하고 앱을 분리
+auth_method,1,SIMPLE,간편인증,공단 현행 인증수단과 대조 후 코드 확정
+auth_method,2,FINCERT,금융인증서,공단 현행 인증수단과 대조 후 코드 확정
+auth_method,3,JOINT,공동인증서,공단 현행 인증수단과 대조 후 코드 확정
+auth_method,4,IDPW,ID·비밀번호,공단 현행 인증수단과 대조 후 코드 확정
+auth_method,5,OTHER,기타·미상,공단 현행 인증수단과 대조 후 코드 확정
+auth_method,6,NA,해당없음,공단 현행 인증수단과 대조 후 코드 확정
+failure_reason,1,MISMATCH,자격정보불일치,자유서술·원문 오류메시지 대신 공개용 범주 사용
+failure_reason,2,PASSWORD,비밀번호불일치,자유서술·원문 오류메시지 대신 공개용 범주 사용
+failure_reason,3,CANCEL,사용자취소,자유서술·원문 오류메시지 대신 공개용 범주 사용
+failure_reason,4,TIMEOUT,시간초과,자유서술·원문 오류메시지 대신 공개용 범주 사용
+failure_reason,5,SYSTEM,시스템·통신오류,자유서술·원문 오류메시지 대신 공개용 범주 사용
+failure_reason,6,OTHER,기타·미상,자유서술·원문 오류메시지 대신 공개용 범주 사용
+suppression_status,1,OPEN,공개,공단 재식별 위험검토에서 최소셀 기준 k를 확정
+suppression_status,2,SUPP,억제,공단 재식별 위험검토에서 최소셀 기준 k를 확정
+suppression_status,3,MERGED,상위범주통합,공단 재식별 위험검토에서 최소셀 기준 k를 확정
